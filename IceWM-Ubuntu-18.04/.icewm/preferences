@@ -1,0 +1,44 @@
+
+
+
+
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 
+# Que el reloj abra orage y no xclock
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+# Si se daba clic en el reloj por defecto abría xclock, aquí lo cambio
+# original:
+#  Command to run on clock
+# ClockCommand="xclock -name icewm -title Clock"
+# El que estoy suando
+ClockCommand="orage -name icewm -title Clock"
+
+
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+# Sólo quiero dos Espacios de trabajo
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+# Para que solo me muestre 2 Estapcios de Trabajo (a mi me gusta así,
+# no uso muchos, como los 4 que trae). Original:
+#WorkspaceNames=" 1 ", " 2 ", " 3 " ," 4 "
+# el que estoy usando (esta opción buscarla al final de este texto)
+WorkspaceNames="1", "2"
+
+
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 
+# Desactivo el menu "Programs"
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+# Desactivo el menu "Programs" estaba en 1 le puse 0, esto porque uso 
+# xdgmenumaker y este me crea un menu de Aplicaciones con iconos
+# el cual está bien completo. Original: 
+#ShowProgramsMenu=1 # 0/1
+# el que estoy usando:
+ShowProgramsMenu=0 # 0/1
+
+
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+# Poniendo el reloj en Horas y minutos
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+#  Clock Time format (strftime format string)
+# TimeFormat="%X"
+TimeFormat="%H:%M"
+
+
