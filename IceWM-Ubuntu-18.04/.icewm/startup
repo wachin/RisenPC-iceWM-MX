@@ -217,6 +217,8 @@ numlockx on &
 dolphin /home/wachin/ /home/wachin/github-2-wid/linux-android/ /home/wachin/ /home/wachin/github-2-wid/ &
 # Administrador de archivos ligero
 
+fbsetbg /home/wachin/github-2-wid/wachin/Diseños/Tux-Wallpaper/warty-final-ubuntu-1560x878px-Youtube.png
+# Wallpaper (fbsetbg forma parte de icewm)
 
 ksnip &
 # Captura de pantalla
@@ -236,7 +238,7 @@ gedit &
 #pluma &
 # Editor de texto
 
-/usr/lib/i386-linux-gnu/libexec/kdeconnectd
+/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
 # KDE Connect
 
 #Dios les bendiga
