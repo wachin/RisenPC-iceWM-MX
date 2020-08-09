@@ -228,7 +228,7 @@ Instalar FFmulticonverter 1.7.2 en Ubuntu 16.04,17.04
 https://facilitarelsoftwarelibre.blogspot.com/2016/07/ffmulticonverter-172-en-ubuntu-1604.html
 
 
-2020
+2020-08
 Proyecto RisenPC
 Por: Washington Indacochea Delgado (Wachín)
 
