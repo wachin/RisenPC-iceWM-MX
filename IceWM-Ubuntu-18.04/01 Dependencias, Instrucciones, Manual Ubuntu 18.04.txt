@@ -7,7 +7,7 @@ por: Washington Indacochea Delgado
 Dependencias
 ▒▒▒▒▒▒▒▒▒▒▒▒
 
-sudo apt-get install icewm menu-l10n lxrandr lxappearance pluma pnmixer numlockx gnome-icon-theme breeze-icon-theme xfce4-appfinder xfce4-notes xfce4-terminal pcmanfm thunar orage mate-power-manager exe-thumbnailer qt5ct xscreensaver 
+sudo apt-get install icewm lxrandr lxappearance pluma pnmixer numlockx gnome-icon-theme breeze-icon-theme xfce4-appfinder xfce4-notes xfce4-terminal pcmanfm thunar orage mate-power-manager exe-thumbnailer qt5ct xscreensaver 
 
 
 Explicaciones acerca de los paquetes a instalar:

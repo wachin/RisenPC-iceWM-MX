@@ -214,20 +214,19 @@ numlockx on &
 # yo lo uso para invertir la tecla Fn
 # https://unix.stackexchange.com/questions/41647/switch-fn-key-state
 
-dolphin /home/wachin/ /home/wachin/github-2-wid/linux-android/ /home/wachin/ /home/wachin/github-2-wid/ &
+## dolphin /home/wachin/ /home/wachin/github-2-wid/linux-android/ /home/wachin/ /home/wachin/github-2-wid/ &
 # Administrador de archivos ligero
-
-fbsetbg /home/wachin/github-2-wid/wachin/Diseños/Tux-Wallpaper/warty-final-ubuntu-1560x878px-Youtube.png
-# Wallpaper (fbsetbg forma parte de icewm)
 
 ksnip &
 # Captura de pantalla
 
-#firefox &
+# firefox &
 # Navegador Web
 
 chromium &
 # Navegador Web
+
+thunar &
 
 goldendict &
 # Diccionario
