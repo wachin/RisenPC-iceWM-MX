@@ -172,11 +172,6 @@ numlockx on &
 # sudo apt-get update
 # sudo apt-get upgrade
 
-#shutter --min_at_startup &
-# Para tomar captura de pantallas, este es el comando para que se
-# cargue iconizado y no ocupe espacio 
-# instalado desde PPA
-# http://shutter-project.org/downloads/
 
 #dropbox start -i &
 # Sincronizar tus archivos atravéz de computadoras y la web. Este lo instalé con "sudo apt-get install nautilus-dropbox"
@@ -220,10 +215,10 @@ numlockx on &
 ksnip &
 # Captura de pantalla
 
-# firefox &
+firefox &
 # Navegador Web
 
-chromium &
+#chromium &
 # Navegador Web
 
 thunar &
@@ -231,14 +226,17 @@ thunar &
 goldendict &
 # Diccionario
 
-gedit &
+#gedit &
 #featherpad &
 
-#pluma &
+pluma &
 # Editor de texto
 
-/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
+#/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
 # KDE Connect
+
+feh --bg-scale /home/wachin/Imágenes/wallpaper/wallpaper.jpg
+# Cómo poner el wallpaper visto en: http://www.bristolwatch.com/debian/feh.htm
 
 #Dios les bendiga
 
