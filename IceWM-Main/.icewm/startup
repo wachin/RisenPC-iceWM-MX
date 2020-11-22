@@ -235,7 +235,7 @@ pluma &
 #/usr/lib/i386-linux-gnu/libexec/kdeconnectd &
 # KDE Connect
 
-feh --bg-scale /home/wachin/Imágenes/wallpaper/wallpaper.jpg
+feh --bg-scale /home/wachin/Imágenes/wallpaper/wallpaper.jpg &
 # Cómo poner el wallpaper visto en: http://www.bristolwatch.com/debian/feh.htm
 
 #Dios les bendiga
