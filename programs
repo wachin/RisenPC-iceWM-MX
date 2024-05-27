@@ -4,7 +4,7 @@
 ## This file is intended to be customized by distributions.
 ##
 
-## prog "Lanzador de Aplicaciones de XFCE" /usr/share/icewm/taskbar/collapse.xpm xfce4-appfinder
+prog "Lanzador de Aplicaciones de XFCE" /usr/share/icewm/taskbar/collapse.xpm xfce4-appfinder
 
 ## mostly obsolete, fixme
 #menu Editors folder {
@@ -62,7 +62,7 @@
 #    prog "Screen Lock" xlock xlock
 #}
 menu "Window Managers" folder {
-#    restart icewm - icewm
+    restart icewm - icewm
 #    restart metacity - metacity
 #    restart wmaker - wmaker
 #    restart fluxbox - fluxbox
@@ -72,4 +72,4 @@ menu "Window Managers" folder {
 #    restart fvwm - fvwm
 #    restart sawfish - sawfish
 #    restart sawfish2 - sawfish2
-#}
+}
