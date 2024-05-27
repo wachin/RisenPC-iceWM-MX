@@ -31,7 +31,7 @@ WorkspaceNames="1", "2"
 # el cual está bien completo. Original: 
 #ShowProgramsMenu=1 # 0/1
 # el que estoy usando:
-ShowProgramsMenu=0 # 0/1
+ShowProgramsMenu=1 # 0/1
 
 
 # ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
@@ -40,5 +40,15 @@ ShowProgramsMenu=0 # 0/1
 #  Clock Time format (strftime format string)
 # TimeFormat="%X"
 TimeFormat="%H:%M"
+
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒ 
+# setup the preferences
+# ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒
+
+RebootCommand="sudo /sbin/reboot"
+ShutdownCommand="sudo /sbin/halt"
+TerminalCommand=sakura
+SuspendCommand="sudo 'pm-suspend'"
+
 
 

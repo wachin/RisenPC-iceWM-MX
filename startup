@@ -130,32 +130,7 @@ pnmixer &
 
 
 # VELOCIDAD DEL CURSOR RÁPIDA
-# Nota: Algunos Linux no usan xset para cambiar la velocidad y en esos no funcionará esto. En MX Linux si funciona al usarlo con iceWM
-#xset m 5 1 &
-#xset m 5 2 &
-#xset m 4 1 &
-#xset m 4 2 &
-xset m 3 1 &
-#xset m 3 2 &
-#xset m 2 1 &
-#xset m 2 2 &
-#VELOCIDAD DEL CURSOR LENTA
-# Este comando es para poner la velocidad del cursor de su mouse o de
-# su touchpad, o de algún teclado externo con touchpad, para mi
-# la mejor velocidad del cursor es "xset m 4 1". Pero claro, puede que
-# usted necesite más o menos (esto depende de algunos factores como el 
-# tamaño de la pantalla de su PC, su mouse o touchpad).
-# Le dejo a usted esta lista de las velocidades que puede usar. 
-# También puede probar uno por uno cada comando en una terminal, luego
-# desmarque el que quiera que se cargue al inicio de su PC y el resto
-# dejelo marcado con el numeral para que no funcionen.
-# El comando para ver qué velocidad estás utilizando es:
-# xset q | grep -A 1 Pointer
-# Ejemplo para esta velocidad que estoy usando el resultado es
-# Pointer Control:
-# acceleration:  4/1    threshold:  1
-# Contultas
-# Visto en: https://wiki.archlinux.org/index.php/Mouse_acceleration
+xinput-gui &
  
 numlockx on &
 # Si tienes una laptop con teclado numerico deberías tenerlo activado. 
